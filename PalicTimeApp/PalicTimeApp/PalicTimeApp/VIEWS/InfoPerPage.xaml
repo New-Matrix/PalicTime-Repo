@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="PalicTimeApp.VIEWS.InfoPerPage">
+    <ContentPage.Content>
+        
+        <StackLayout HorizontalOptions="Start" VerticalOptions="Start">
+            <Grid >
+
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="5"/>
+                    <RowDefinition Height="65"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+
+                <!--TITULO-->
+                <StackLayout Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Start" >
+                    <Label Text="Información Personal" FontSize="22" TextColor="Black"  />
+                </StackLayout>
+
+
+                <!--NOMBRE-->
+                <StackLayout Grid.Row="2" HorizontalOptions="Center">
+                    <Label Text="Nombre" FontSize="18"/>
+                    <Frame HeightRequest="45" Padding="0,1,0,0">
+                        <Entry FontSize="15" WidthRequest="250" Text="Mi Nombre"/>
+                    </Frame>
+                    <Label  Text="cambiar" FontSize="15" />
+                </StackLayout>
+
+                <!--APELLIDO-->
+                <StackLayout Grid.Row="3" HorizontalOptions="Center">
+                    <Label Text="Apellido" FontSize="18"/>
+                    <Frame HeightRequest="45" Padding="0,1,0,0">
+                        <Entry  WidthRequest="250" FontSize="15" Text="Mi Apellido"/>
+                    </Frame>
+                    <Label  Text="cambiar" FontSize="15" />
+                </StackLayout>
+
+                <!--EDAD-->
+                <StackLayout Grid.Row="4" HorizontalOptions="Start" AnchorY="4000"  >
+                    <Label Text="Edad" FontSize="18"/>
+                    <Frame Padding="0,0,0,0">
+                        <Entry  Keyboard="Numeric" FontSize="15" Text="00" />
+                    </Frame>
+                    <Label  Text="cambiar" FontSize="15" />
+                </StackLayout>
+                
+                <!--PADECIMIENTOS-->
+                <StackLayout Grid.Row="5" HorizontalOptions="End"   >
+                    <Label Text="Padecimientos" FontSize="18"/>
+                    <Frame Padding="0,1,0,0">
+                        <Entry  Keyboard="Numeric"  />
+                    </Frame>
+                    <Label  Text="cambiar" FontSize="15" />
+                </StackLayout>
+
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

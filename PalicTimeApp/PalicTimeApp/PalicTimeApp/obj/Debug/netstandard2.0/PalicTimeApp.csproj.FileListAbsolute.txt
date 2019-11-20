@@ -1,0 +1,15 @@
+C:\Users\alvar\Desktop\PalicTime\PalicTime-Repo\PalicTimeApp\PalicTimeApp\PalicTimeApp\bin\Debug\netstandard2.0\PalicTimeApp.deps.json
+C:\Users\alvar\Desktop\PalicTime\PalicTime-Repo\PalicTimeApp\PalicTimeApp\PalicTimeApp\bin\Debug\netstandard2.0\PalicTimeApp.dll
+C:\Users\alvar\Desktop\PalicTime\PalicTime-Repo\PalicTimeApp\PalicTimeApp\PalicTimeApp\bin\Debug\netstandard2.0\ref\PalicTimeApp.dll
+C:\Users\alvar\Desktop\PalicTime\PalicTime-Repo\PalicTimeApp\PalicTimeApp\PalicTimeApp\bin\Debug\netstandard2.0\PalicTimeApp.pdb
+C:\Users\alvar\Desktop\PalicTime\PalicTime-Repo\PalicTimeApp\PalicTimeApp\PalicTimeApp\obj\Debug\netstandard2.0\PalicTimeApp.csprojAssemblyReference.cache
+C:\Users\alvar\Desktop\PalicTime\PalicTime-Repo\PalicTimeApp\PalicTimeApp\PalicTimeApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\alvar\Desktop\PalicTime\PalicTime-Repo\PalicTimeApp\PalicTimeApp\PalicTimeApp\obj\Debug\netstandard2.0\VIEWS\LoginPage.xaml.g.cs
+C:\Users\alvar\Desktop\PalicTime\PalicTime-Repo\PalicTimeApp\PalicTimeApp\PalicTimeApp\obj\Debug\netstandard2.0\PalicTimeApp.AssemblyInfoInputs.cache
+C:\Users\alvar\Desktop\PalicTime\PalicTime-Repo\PalicTimeApp\PalicTimeApp\PalicTimeApp\obj\Debug\netstandard2.0\PalicTimeApp.AssemblyInfo.cs
+C:\Users\alvar\Desktop\PalicTime\PalicTime-Repo\PalicTimeApp\PalicTimeApp\PalicTimeApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\alvar\Desktop\PalicTime\PalicTime-Repo\PalicTimeApp\PalicTimeApp\PalicTimeApp\obj\Debug\netstandard2.0\PalicTimeApp.dll
+C:\Users\alvar\Desktop\PalicTime\PalicTime-Repo\PalicTimeApp\PalicTimeApp\PalicTimeApp\obj\Debug\netstandard2.0\ref\PalicTimeApp.dll
+C:\Users\alvar\Desktop\PalicTime\PalicTime-Repo\PalicTimeApp\PalicTimeApp\PalicTimeApp\obj\Debug\netstandard2.0\PalicTimeApp.pdb
+C:\Users\alvar\Desktop\PalicTime\PalicTime-Repo\PalicTimeApp\PalicTimeApp\PalicTimeApp\obj\Debug\netstandard2.0\VIEWS\PrincipalPage.xaml.g.cs
+C:\Users\alvar\Desktop\PalicTime\PalicTime-Repo\PalicTimeApp\PalicTimeApp\PalicTimeApp\obj\Debug\netstandard2.0\VIEWS\InfoPerPage.xaml.g.cs

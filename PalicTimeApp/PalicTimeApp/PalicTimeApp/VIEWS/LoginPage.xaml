@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="PalicTimeApp.VIEWS.LoginPage">
+    <ContentPage.Content>
+
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Grid RowSpacing="25">
+
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+            
+
+                <!--CORREO-->
+                <StackLayout Grid.Row="1" HorizontalOptions="CenterAndExpand">
+                    <Label Text="Correo" />
+                    <Frame HeightRequest="45" Padding="0,1,0,0">
+                        <Entry WidthRequest="250" FontSize="15" Keyboard="Email"  Placeholder="abr@dominio.com.do"/>
+                    </Frame>
+                </StackLayout>
+
+                <!--PASSWORD-->
+                <StackLayout Grid.Row="2" HorizontalOptions="Center">
+                    <Label Text="Contraseña"/>
+                    <Frame HeightRequest="45" Padding="0,0,0,0">
+                        <Entry WidthRequest="250" FontSize="15" Placeholder="12345"/>
+                    </Frame>
+                </StackLayout>
+
+                <!--REMEMBER ME-->
+                <StackLayout Grid.Row="3" Orientation="Horizontal">
+                    <Label Text="Recuerdame"/>
+                    <CheckBox VerticalOptions="Start" Color="Black"/>
+                </StackLayout>
+                
+                <!--BOTON DE LOGIN-->
+                <StackLayout Grid.Row="4" HorizontalOptions="Center">
+                    <Button Text="Iniciar Sesión"/>
+                </StackLayout>
+
+
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
